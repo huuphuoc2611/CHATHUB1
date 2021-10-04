@@ -1,0 +1,152 @@
+﻿
+@{
+    ViewBag.Title = "Bot";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bot</h2>
+<div class="table-container">
+    <h2 class="title">
+        chúc lights moon ngày mới tốt lành
+        <i class="fas fa-heart" style="color: red"></i>
+    </h2>
+    <p class="subtitle">
+        Hãy nhập thông tin bên dưới để ChatHUB hỗ trợ bạn tốt hơn nhé !
+    </p>
+    <table>
+
+        <tr>
+            <td class="seclect-title">Lĩnh Vực Kinh Doanh:</td>
+            <td>
+                <div>
+                    <select name="category"
+                            data-vv-as="Lĩnh Vực Kinh Doanh"
+                            class="form-control"
+                            aria-required="true"
+                            aria-invaled="false">
+                        <option value="0"></option>
+                        <option value="1">Giáo Dục</option>
+                        <option value="2">Tài Chính</option>
+                        <option value="3">Thời Trang</option>
+                        <option value="4">Sức Khỏe & Làm Đẹp</option>
+                        <option value="5">Du Lịch & Vận Tải</option>
+                        <option value="6">Tổ Chức Sự Kiện</option>
+                        <option value="7">Công Nghệ Thông Tin</option>
+                        <option value="8">Bất Động Sản</option>
+                        <option value="9">Dịch Vụ</option>
+                        <option value="10">Nhà Hàng</option>
+                        <option value="11">Cá Nhân</option>
+                    </select>
+                    <span></span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="seclect-title">Địa Điểm Kinh Doanh :</td>
+            <td>
+                <div class="col-sm-8"></div>
+                <select name="category"
+                        data-vv-as="Địa Điểm Kinh Doanh "
+                        class="form-control"
+                        aria-required="true"
+                        aria-invaled="false">
+                    <option value="">Chọn tỉnh,thành</option>
+                    <option value="92">Thành Phố Cần Thơ</option>
+                    <option value="01">Thành Phố Hà Nội</option>
+                    <option value="31">Thành Phố Hải Phòng</option>
+                    <option value="79">Thành Phố Hồ Chí Minh</option>
+                    <option value="48">Thành Phố Đà Nẵng</option>
+                    <option value="89">Tỉnh An Giang</option>
+                    <option value="24">Tỉnh Bắc Giang</option>
+                    <option value="06">Tỉnh Bắc Cạn</option>
+                    <option value="95">Tỉnh Bạc Liêu</option>
+                    <option value="27">Tỉnh Bắc Ninh</option>
+                    <option value="77">Tỉnh Bà Rịa-Vũng Tàu</option>
+                    <option value="83">Tỉnh Bến Tre</option>
+                    <option value="52">Tỉnh Bình Định</option>
+                    <option value="74">Tỉnh Bình Dương</option>
+                    <option value="70">Tỉnh Bình Phước</option>
+                    <option value="60">Tỉnh Bình Thuận</option>
+                    <option value="96">Tỉnh Cà Mau</option>
+                    <option value="04">Tỉnh Cao Bằng</option>
+                    <option value="66">Tỉnh Đắk Lắk</option>
+                    <option value="67">Tỉnh Đắk Nông</option>
+                    <option value="11">Tỉnh Điện Biên</option>
+                    <option value="75">Tỉnh Đồng Nai</option>
+                    <option value="87">Tỉnh Đồng Tháp</option>
+                    <option value="64">Tỉnh Gia Lai</option>
+                    <option value="02">Tỉnh Hà Giang</option>
+                    <option value="30">Tỉnh Hải Dương</option>
+                    <option value="35">Tỉnh Hà Nam</option>
+                    <option value="42">Tỉnh Hà Tĩnh</option>
+                    <option value="93">Tỉnh Hậu Giang</option>
+                    <option value="17">Tỉnh Hòa Bình</option>
+                    <option value="33">Tỉnh Hưng Yên</option>
+                    <option value="56">Tỉnh Khánh Hòa</option>
+                    <option value="91">Tỉnh Kiên Giang</option>
+                    <option value="62">Tỉnh Kon Tum</option>
+                    <option value="12">Tỉnh Lai Châu</option>
+                    <option value="68">Tỉnh Lâm Đồng</option>
+                    <option value="20">Tỉnh Lạng Sơn</option>
+                    <option value="10">Tỉnh Lào Cai</option>
+                    <option value="80">Tỉnh Long An</option>
+                    <option value="36">Tỉnh Nam Định</option>
+                    <option value="40">Tỉnh Nghệ An</option>
+                    <option value="37">Tỉnh Ninh Bình</option>
+                    <option value="58">Tỉnh Ninh Thuận</option>
+                    <option value="25">Tỉnh Phú Thọ</option>
+                    <option value="54">Tỉnh Phú Yên</option>
+                    <option value="44">Tỉnh Quảng Bình</option>
+                    <option value="49">Tỉnh Quảng Nam</option>
+                    <option value="51">Tỉnh Quãng Ngãi</option>
+                    <option value="22">Tỉnh Quãng Ninh</option>
+                    <option value="45">Tỉnh Quãng Trị</option>
+                    <option value="94">Tỉnh Sóc Trăng</option>
+                    <option value="14">Tỉnh Sơn La</option>
+                    <option value="72">Tỉnh Tây Ninh</option>
+                    <option value="34">Tỉnh Thái Bình</option>
+                    <option value="19">Tỉnh Thái Nguyên</option>
+                    <option value="38">Tỉnh Thanh Hóa</option>
+                    <option value="46">Tỉnh Thừa Thiên Hóa</option>
+                    <option value="82">Tỉnh Tiền Giang</option>
+                    <option value="84">Tỉnh Trà Vinh</option>
+                    <option value="08">Tỉnh Tuyên Quang</option>
+                    <option value="86">Tỉnh Vĩnh Long</option>
+                    <option value="26">Tỉnh Vĩnh Phúc</option>
+                    <option value="15">Tỉnh Yên Bái</option>
+                </select>
+                <span></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="seclect-title">Điện Thoại Liên Hệ</td>
+            <td>
+                <input type="text" id="#" name="#" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td class="seclect-title">Nhận Thông Báo Mới Nhất</td>
+            <td>
+                <a href="#" class="send-message">
+                    <i class="fab fa-facebook-messenger"></i> Send to Messenger
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="seclect-title"></td>
+            <td>
+                <div class="user-account">
+                    <i class="fas fa-user"></i>
+                    <span>lights moon</span>
+                    <a href="">Not you?</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="Submit" value="Hoàn Tất" class="btn-submit" />
+            </td>
+        </tr>
+    </table>
+</div>

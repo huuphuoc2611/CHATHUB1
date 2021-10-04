@@ -1,0 +1,57 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+#slideshow {
+    float: none;
+    display: flex;
+    padding: 160px 1px;
+    align-items: center;
+    background-image:src(/img/botchat.jpg)
+}
+
+#slideshow__left {
+    flex: 1000%;
+}
+
+#slideshow__left h3 {
+        font-size: 24px;
+        margin-bottom: 16px;
+}
+
+
+    #slideshow__left a {
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        padding: 8px 26px;
+        border-radius: 20px;
+        background: #FF523B;
+        margin-top: 8px;
+        text-decoration: none;
+    }
+
+
+
+
+

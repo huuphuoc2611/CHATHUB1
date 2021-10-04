@@ -1,0 +1,54 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.dashboard {
+    position: absolute;
+    width: 15rem;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #364152;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    text-align: right;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.dashboard-list {
+    padding: 0 0.5rem;
+}
+
+.user {
+    font-size: 1rem;
+    color: #e1e1e1;
+    font-weight: 300;
+}
+
+i {
+    padding: 0 1rem;
+}
+
+.btn-upgrade {
+    display: block;
+    padding: 0.6rem 2.8rem;
+    text-align: center;
+    margin: 3rem auto;
+    background-color: #3c89da;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2 linear;
+}
+
+    .btn-upgrade a {
+        text-decoration: none;
+        color: #e1e1e1;
+        font-size: 1rem;
+    }
+
+    .btn-upgrade:hover {
+        opacity: 0.8;
+    }
